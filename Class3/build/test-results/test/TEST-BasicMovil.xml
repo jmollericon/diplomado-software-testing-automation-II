@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="BasicMovil" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-09-19T13:49:24" hostname="debian" time="24.145">
+<testsuite name="BasicMovil" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-09-19T14:22:39" hostname="debian" time="20.184">
   <properties/>
-  <testcase name="myFirstTest" classname="BasicMovil" time="24.145"/>
+  <testcase name="add" classname="BasicMovil" time="20.184"/>
   <system-out><![CDATA[before
-my first test...
 after
 ]]></system-out>
-  <system-err><![CDATA[Sep 19, 2020 9:49:48 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+  <system-err><![CDATA[Sep 19, 2020 10:22:54 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

@@ -1,3 +1,5 @@
+package basicTest;
+
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
@@ -42,6 +44,8 @@ public class BasicMovil {
     }
     @Test
     public void add(){
+        // Action + Cual elemento? + En donde está el elemente
+        // Click on [Login] Button in Login Page
         // Press button 2
         this.driver.findElement(By.id("com.android.calculator2:id/digit_2")).click();
         // Press button +

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BasicMovil" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-09-19T13:36:17" hostname="debian" time="0.035">
+  <properties/>
+  <testcase name="mySecondTest" classname="BasicMovil" time="0.023"/>
+  <testcase name="myFirstTest" classname="BasicMovil" time="0.005"/>
+  <system-out><![CDATA[before
+my second test...
+after
+before
+my first test...
+after
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

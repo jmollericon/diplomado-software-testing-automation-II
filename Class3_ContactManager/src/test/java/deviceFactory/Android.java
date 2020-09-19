@@ -14,8 +14,8 @@ public class Android implements IDevice{
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("deviceName", "Xperia E5");
         capabilities.setCapability("platformVersion", "6.0");
-        capabilities.setCapability("appPackage", "com.android.calculator2");
-        capabilities.setCapability("appActivity", ".Calculator");
+        capabilities.setCapability("appPackage", "com.example.android.contactmanager");
+        capabilities.setCapability("appActivity", ".ContactManager");
         capabilities.setCapability("platformName", "Android");
 
         AppiumDriver driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);

@@ -20,6 +20,6 @@ public class Android implements IDevice{
 
         AppiumDriver driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
         driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS); // Implicit wait
-        return null;
+        return driver;
     }
 }

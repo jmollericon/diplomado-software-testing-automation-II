@@ -53,9 +53,9 @@ public class BasicMovil {
         // Press button 5
         this.driver.findElement(By.id("com.android.calculator2:id/digit_5")).click();
         // Press button =
-        this.driver.findElement(By.id("com.android.calculator2:id/result")).click();
+        this.driver.findElement(By.id("com.android.calculator2:id/eq")).click();
         // verification = 7
-        String actualResult = this.driver.findElement(By.id("result")).getText();
+        String actualResult = this.driver.findElement(By.id("com.android.calculator2:id/result")).getText();
         String expectedResult = "7";
         Assert.assertEquals("Error, the sum is wrong.",expectedResult, actualResult);
     }

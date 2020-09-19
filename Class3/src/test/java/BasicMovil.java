@@ -1,9 +1,16 @@
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.AndroidDriver;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
+import java.net.MalformedURLException;
+import java.net.URL;
+
 public class BasicMovil {
+
+    private AppiumDriver driver;
 
     /* Desired Capabilities
     {
@@ -15,7 +22,7 @@ public class BasicMovil {
     } */
 
     @Before
-    public void before() {
+    public void before() throws MalformedURLException {
         System.out.println("before");
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("deviceName", "Xperia E5");
@@ -23,6 +30,8 @@ public class BasicMovil {
         capabilities.setCapability("appPackage", "com.android.calculator2");
         capabilities.setCapability("appActivity", ".Calculator");
         capabilities.setCapability("platformName", "Android");
+
+        this.driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
     }
     @Test
     public void myFirstTest(){

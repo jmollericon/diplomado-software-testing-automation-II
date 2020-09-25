@@ -1,24 +1,32 @@
 package test;
 
-import activity.contactManager.MainActivity;
+import activity.FormAddContactActivity;
+import activity.MainActivity;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Test;
-import sessionManager.Session;
 
 import java.net.MalformedURLException;
 
 public class AddContactTest {
-    MainActivity addContactActivity = new MainActivity();
+    MainActivity mainActivity = new MainActivity();
+    FormAddContactActivity formAddContactActivity = new FormAddContactActivity();
 
     @Test
-    public void verifyAddNumbers() throws MalformedURLException {
-        addContactActivity.addContactButton.click();
+    public void verifyAddContact() throws MalformedURLException {
+        String nameContact = "1_pepito";
+
+        mainActivity.addContactButton.click();
+
+        //formAddContactActivity.targetAccountComboBox.click();
+
+        formAddContactActivity.contactNameTextBox.sendKeys(nameContact);
+        formAddContactActivity.contactPhoneTextBox.sendKeys("222222");
+        formAddContactActivity.contactEmailTextBox.sendKeys("pepito@email.com");
+        formAddContactActivity.saveContactButton.click();
 
         // Verification
-        //String actualResult = calculatorActivity.resultLabel.getText();
-        //String expectedResult = "7";
-        //Assert.assertEquals("Error, the sum is wrong.",expectedResult, actualResult);
+        Assert.assertTrue("Error, the contact isn't created.", mainActivity.isDisplayedContact(nameContact));
     }
 
     @After

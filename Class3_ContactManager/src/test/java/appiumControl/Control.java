@@ -28,4 +28,12 @@ public class Control {
         return this.control.getText();
     }
 
+    public boolean isDisplayed() {
+        try {
+            this.findControl();
+            return this.control.isDisplayed();
+        }catch (Exception e) {
+            return false;
+        }
+    }
 }

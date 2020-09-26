@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.DeleteTodoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-09-26T03:56:53" hostname="debian" time="45.901">
+  <properties/>
+  <testcase name="verifyDeleteTodo" classname="test.DeleteTodoTest" time="45.901"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Sep 25, 2020 11:57:06 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

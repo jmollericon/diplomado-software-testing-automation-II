@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.AddTodoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-09-26T03:12:39" hostname="debian" time="18.705">
-  <properties/>
-  <testcase name="verifyAddContact" classname="test.AddTodoTest" time="18.705"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Sep 25, 2020 11:12:52 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
-INFO: Detected dialect: W3C
-]]></system-err>
-</testsuite>

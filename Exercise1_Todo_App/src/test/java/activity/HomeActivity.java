@@ -11,9 +11,9 @@ public class HomeActivity {
         addTodoButton = new Button(By.id("com.vrproductiveapps.whendo:id/fab"));
     }
 
-    public boolean isDisplayedContact(String titleTodo) {
+    public boolean isDisplayedTodo(String titleTodo) {
         String locator = "//android.widget.TextView[@text='"+titleTodo+"']";
-        Label contact = new Label(By.xpath(locator));
-        return contact.isDisplayed();
+        Label title = new Label(By.xpath(locator));
+        return title.isDisplayed();
     }
 }

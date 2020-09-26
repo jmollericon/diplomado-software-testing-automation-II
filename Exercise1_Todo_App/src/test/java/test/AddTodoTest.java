@@ -14,7 +14,7 @@ public class AddTodoTest {
     FormAddTodoActivity formAddTodoActivity = new FormAddTodoActivity();
 
     @Test
-    public void verifyAddContact() throws MalformedURLException {
+    public void verifyAddTodo() throws MalformedURLException {
         String titleTodo = "todo1";
         String notesTodo = "nota de mi todo";
         homeActivity.addTodoButton.click();
@@ -24,7 +24,7 @@ public class AddTodoTest {
         formAddTodoActivity.saveTodoButton.click();
 
         // Verification
-        Assert.assertTrue("Error, the contact isn't created.", homeActivity.isDisplayedContact(titleTodo));
+        Assert.assertTrue("Error, TODO isn't created.", homeActivity.isDisplayedTodo(titleTodo));
     }
 
     @After

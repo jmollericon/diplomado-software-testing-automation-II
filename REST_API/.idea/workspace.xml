@@ -22,13 +22,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="301ab847-91d9-45aa-bcb3-d64ace1aa46b" name="Default Changelist" comment="tests POST, PUT, GET and DELETE ok">
-      <change afterPath="$PROJECT_DIR$/src/test/java/report/ReportGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+    <list default="true" id="301ab847-91d9-45aa-bcb3-d64ace1aa46b" name="Default Changelist" comment="add report -&gt; ReportGenerator.java, configure path and run 'gradle clean cucumber -Psuite=@Jorge'. -&gt; create report.json">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +69,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ReportGenerator">
+    <configuration name="ReportGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="report.ReportGenerator" />
+      <module name="REST_API.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="report.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: As a user I want to create a project so that organize my task" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/createProject.feature" />
@@ -107,6 +122,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReportGenerator" />
         <item itemvalue="Cucumber Java.Scenario: As a user I want to create a project so that organize my task" />
       </list>
     </recent_temporary>
@@ -134,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601762998964</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add report -&gt; ReportGenerator.java, configure path and run 'gradle clean cucumber -Psuite=@Jorge'. -&gt; create report.json">
+      <created>1601763458322</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601763458322</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,29 +174,34 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add createProject.feature - ok" />
     <MESSAGE value="tests POST, PUT, GET and DELETE ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests POST, PUT, GET and DELETE ok" />
+    <MESSAGE value="add report -&gt; ReportGenerator.java, configure path and run 'gradle clean cucumber -Psuite=@Jorge'. -&gt; create report.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="add report -&gt; ReportGenerator.java, configure path and run 'gradle clean cucumber -Psuite=@Jorge'. -&gt; create report.json" />
   </component>
   <component name="WindowStateProjectService">
     <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601760531051">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741/1366.0.1360.768@0.27.1366.741" timestamp="1601760531051" />
-    <state width="1320" height="338" key="GridCell.Tab.0.bottom" timestamp="1601762780327">
+    <state width="1320" height="338" key="GridCell.Tab.0.bottom" timestamp="1601763523398">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="338" key="GridCell.Tab.0.bottom/0.27.1366.741/1366.0.1360.768@0.27.1366.741" timestamp="1601762780327" />
-    <state width="1320" height="338" key="GridCell.Tab.0.center" timestamp="1601762780327">
+    <state width="1320" height="338" key="GridCell.Tab.0.bottom/0.27.1366.741/1366.0.1360.768@0.27.1366.741" timestamp="1601763523398" />
+    <state width="1320" height="338" key="GridCell.Tab.0.center" timestamp="1601763523398">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="338" key="GridCell.Tab.0.center/0.27.1366.741/1366.0.1360.768@0.27.1366.741" timestamp="1601762780327" />
-    <state width="1320" height="338" key="GridCell.Tab.0.left" timestamp="1601762780327">
+    <state width="1320" height="338" key="GridCell.Tab.0.center/0.27.1366.741/1366.0.1360.768@0.27.1366.741" timestamp="1601763523398" />
+    <state width="1320" height="338" key="GridCell.Tab.0.left" timestamp="1601763523398">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="338" key="GridCell.Tab.0.left/0.27.1366.741/1366.0.1360.768@0.27.1366.741" timestamp="1601762780327" />
-    <state width="1320" height="338" key="GridCell.Tab.0.right" timestamp="1601762780327">
+    <state width="1320" height="338" key="GridCell.Tab.0.left/0.27.1366.741/1366.0.1360.768@0.27.1366.741" timestamp="1601763523398" />
+    <state width="1320" height="338" key="GridCell.Tab.0.right" timestamp="1601763523398">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="338" key="GridCell.Tab.0.right/0.27.1366.741/1366.0.1360.768@0.27.1366.741" timestamp="1601762780327" />
+    <state width="1320" height="338" key="GridCell.Tab.0.right/0.27.1366.741/1366.0.1360.768@0.27.1366.741" timestamp="1601763523398" />
+    <state x="293" y="27" width="770" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601763427340">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="293" y="27" width="770" height="741" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1366.741/1366.0.1360.768@0.27.1366.741" timestamp="1601763427340" />
     <state x="424" y="321" width="507" height="159" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1601759768149">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

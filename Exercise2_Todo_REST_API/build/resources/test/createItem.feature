@@ -1,6 +1,6 @@
 Feature: Project
   @Jorge
-  Scenario: As a user I want to create a project so that organize my task
+  Scenario: As a user I want to create a item
 
     Given I have authentication to todo.ly
     # making a request
@@ -114,7 +114,7 @@ Feature: Project
       "LastUpdatedDate": "EXCLUDE",
       "Deleted": true,
       "Notes": "",
-      "InHistory": falsee,
+      "InHistory": false,
       "SyncClientCreationId": null,
       "DueTimeSpecified": true,
       "OwnerId": 676115

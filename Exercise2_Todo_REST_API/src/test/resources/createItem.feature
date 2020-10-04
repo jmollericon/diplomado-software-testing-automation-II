@@ -114,7 +114,7 @@ Feature: Project
       "LastUpdatedDate": "EXCLUDE",
       "Deleted": true,
       "Notes": "",
-      "InHistory": falsee,
+      "InHistory": false,
       "SyncClientCreationId": null,
       "DueTimeSpecified": true,
       "OwnerId": 676115

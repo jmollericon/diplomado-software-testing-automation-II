@@ -23,15 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="301ab847-91d9-45aa-bcb3-d64ace1aa46b" name="Default Changelist" comment="generate report ok (run ReportGenerator.java)">
-      <change beforePath="$PROJECT_DIR$/../Exercise2_Todo_REST_API/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise2_Todo_REST_API/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Exercise2_Todo_REST_API/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise2_Todo_REST_API/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise2_Todo_REST_API/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise2_Todo_REST_API/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise2_Todo_REST_API/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise2_Todo_REST_API/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise2_Todo_REST_API/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise2_Todo_REST_API/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise2_Todo_REST_API/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise2_Todo_REST_API/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise2_Todo_REST_API/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise2_Todo_REST_API/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise2_Todo_REST_API/build/resources/test/createItem.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise2_Todo_REST_API/build/resources/test/createItem.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise2_Todo_REST_API/src/test/resources/createItem.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise2_Todo_REST_API/src/test/resources/createItem.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise2_Todo_REST_API/build/reports/cucumber/finalReportAPI/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise2_Todo_REST_API/build/reports/cucumber/finalReportAPI/cucumber-html-reports/overview-failures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise2_Todo_REST_API/build/reports/cucumber/finalReportAPI/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise2_Todo_REST_API/build/reports/cucumber/finalReportAPI/cucumber-html-reports/overview-features.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise2_Todo_REST_API/build/reports/cucumber/finalReportAPI/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise2_Todo_REST_API/build/reports/cucumber/finalReportAPI/cucumber-html-reports/overview-steps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise2_Todo_REST_API/build/reports/cucumber/finalReportAPI/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise2_Todo_REST_API/build/reports/cucumber/finalReportAPI/cucumber-html-reports/overview-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise2_Todo_REST_API/build/reports/cucumber/finalReportAPI/cucumber-html-reports/report-feature_2288950838.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise2_Todo_REST_API/build/reports/cucumber/finalReportAPI/cucumber-html-reports/report-feature_2288950838.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise2_Todo_REST_API/build/reports/cucumber/finalReportAPI/cucumber-html-reports/report-tag_4051509514.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise2_Todo_REST_API/build/reports/cucumber/finalReportAPI/cucumber-html-reports/report-tag_4051509514.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -192,22 +190,22 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="141" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741/1366.0.1360.768@0.27.1366.741" timestamp="1601760531051" />
-    <state width="1320" height="338" key="GridCell.Tab.0.bottom" timestamp="1601763523398">
+    <state width="1320" height="338" key="GridCell.Tab.0.bottom" timestamp="1601780735262">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="338" key="GridCell.Tab.0.bottom/0.27.1366.741/1366.0.1360.768@0.27.1366.741" timestamp="1601763523398" />
-    <state width="1320" height="338" key="GridCell.Tab.0.center" timestamp="1601763523398">
+    <state width="1320" height="338" key="GridCell.Tab.0.bottom/0.27.1366.741/1366.0.1360.768@0.27.1366.741" timestamp="1601780735262" />
+    <state width="1320" height="338" key="GridCell.Tab.0.center" timestamp="1601780735262">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="338" key="GridCell.Tab.0.center/0.27.1366.741/1366.0.1360.768@0.27.1366.741" timestamp="1601763523398" />
-    <state width="1320" height="338" key="GridCell.Tab.0.left" timestamp="1601763523398">
+    <state width="1320" height="338" key="GridCell.Tab.0.center/0.27.1366.741/1366.0.1360.768@0.27.1366.741" timestamp="1601780735262" />
+    <state width="1320" height="338" key="GridCell.Tab.0.left" timestamp="1601780735262">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="338" key="GridCell.Tab.0.left/0.27.1366.741/1366.0.1360.768@0.27.1366.741" timestamp="1601763523398" />
-    <state width="1320" height="338" key="GridCell.Tab.0.right" timestamp="1601763523398">
+    <state width="1320" height="338" key="GridCell.Tab.0.left/0.27.1366.741/1366.0.1360.768@0.27.1366.741" timestamp="1601780735262" />
+    <state width="1320" height="338" key="GridCell.Tab.0.right" timestamp="1601780735262">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="338" key="GridCell.Tab.0.right/0.27.1366.741/1366.0.1360.768@0.27.1366.741" timestamp="1601763523398" />
+    <state width="1320" height="338" key="GridCell.Tab.0.right/0.27.1366.741/1366.0.1360.768@0.27.1366.741" timestamp="1601780735262" />
     <state x="278" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1601763844447">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
